@@ -235,3 +235,117 @@ footer{
    
 }
 
+
+
+/* Responsive for Mobile devices */
+
+@media only screen and (max-width:688px) {
+    body{
+        width: 100%;
+       
+    }
+
+    /* Menu-style */
+    .menu{
+
+    }
+        .menu a{
+            display: none;
+       
+        }
+
+    /* container style  */
+        .container{
+            width: 90%;
+            padding-left: 5%;
+            flex-direction: column-reverse;
+            justify-content: center;
+            text-align: center;
+            row-gap: 0px;
+            
+        }
+        .camera{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items:center ;
+            padding: 0;
+            margin-bottom: 0;
+        }
+        .camera img{
+            width: 257px;
+            height: 257px;
+        }
+        .prebook{
+            width: 100%;
+            margin-top: 0;
+          padding-left: 0;
+            padding-top: 0;
+        }
+
+     /* container style  */
+     .sponsor{
+        width: 90%;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin: 0;
+        padding: 5px 0;
+     }
+    /* Container3 Styles */
+    .container3{
+        text-align: center;
+        margin: 0;
+        width: 90%;
+        padding-left: 5%;
+
+    }
+    .gears{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .see-more{
+        padding-top: 15px;
+        padding-bottom: 0;
+    }
+    /* Container 4 Styles */
+    .container4{
+        flex-direction: column-reverse;
+        width: 90%;
+        margin: 0;
+        padding-left: 5%;
+        padding-bottom: 10px;
+        text-align: center;
+        gap: 10px;
+    }
+    .half-width{
+        margin-bottom: -0px;
+        
+        width: 100%;
+    }
+    .cont4img{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+    }
+    .cont4img img{
+        width: 299px;
+        height: 188px;
+        
+        
+    }
+    /* Footer Style */
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-style{
+
+        padding: 0px  68px 20px;
+    }
+}
+
+
+
